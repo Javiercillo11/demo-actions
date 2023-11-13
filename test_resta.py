@@ -1,7 +1,7 @@
 import unittest
 from resta import restar
 
-class TestSumar(unittest.TestCase):
+class TestRestar(unittest.TestCase):
     def test_restar(self):
         self.assertEqual(restar(4, 2), 2)
         self.assertEqual(restar(1, 1), 0)
