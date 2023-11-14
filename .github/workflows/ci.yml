@@ -29,3 +29,7 @@ jobs:
     - name: Run tests
       run:
         python -m unittest test_multi.py
+
+    - name: Run tests
+      run:
+        python -m unittest test_division.py
